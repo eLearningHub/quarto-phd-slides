@@ -38,7 +38,7 @@ jobs:
         run: cp _output/presentation-01/presentation-01.htm _output/presentation-01/index.html
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: _output/presentation-01
