@@ -1,7 +1,7 @@
 ---
 title: "The Disposable Academic: Rethinking the Value of a PhD"
 author: Behzad Samadi
-date: today
+date: September 3, 2024
 date-format: long
 ---
 
