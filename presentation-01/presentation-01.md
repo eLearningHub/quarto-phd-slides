@@ -17,13 +17,13 @@ date-format: long
 - Lengthy process (often 4-7 years).
 - High levels of specialization.
 - Significant personal and financial sacrifices.
-- **Statistic**: In 2009, the United States awarded 64,000 PhDs, but only 14% of graduates secured tenure-track positions within 5 years.
+- **Statistic**: In 2009, the United States awarded 64,000 PhDs, but only 14% of graduates secured tenure-track positions within 5 years [@Economist2010].
 
 ## Job Market Realities
 - Limited academic positions.
 - Overqualification for non-academic roles.
 - Saturation of PhD holders in the job market.
-- **Statistic**: In 2010, only 3.5% of PhDs in science, technology, engineering, and mathematics (STEM) found permanent academic jobs within 5 years of graduating.
+- **Statistic**: In 2010, only 3.5% of PhDs in science, technology, engineering, and mathematics (STEM) found permanent academic jobs within 5 years of graduating [@Economist2010].
 
 # Academic vs. Industry Gap
 
@@ -34,7 +34,7 @@ date-format: long
 
 ## Post-PhD Employment
 - The struggle to transition from academia to industry.
-- **Statistic**: PhD holders often struggle to secure non-academic jobs, with many positions requiring skills not covered in PhD programs.
+- **Statistic**: PhD holders often struggle to secure non-academic jobs, with many positions requiring skills not covered in PhD programs [@Economist2010].
 
 # The Psychological Toll
 
@@ -46,7 +46,7 @@ date-format: long
 ## Personal Sacrifices
 - The toll on personal relationships and work-life balance.
 - Financial stress and the burden of student loans.
-- **Statistic**: PhD students in the UK can spend up to 7 years on their doctorate, with average annual stipends as low as £13,000, far below the national average wage.
+- **Statistic**: PhD students in the UK can spend up to 7 years on their doctorate, with average annual stipends as low as £13,000, far below the national average wage [@Economist2010].
 
 # Is a PhD Worth It?
 
@@ -59,7 +59,7 @@ date-format: long
 - Limited career prospects.
 - High personal and financial costs.
 - Questionable return on investment.
-- **Statistic**: In the US, median earnings for PhD holders in non-academic roles are often lower than those with professional degrees such as MBAs or JDs.
+- **Statistic**: In the US, median earnings for PhD holders in non-academic roles are often lower than those with professional degrees such as MBAs or JDs [@Economist2010].
 
 ## Conclusion
 - Critical examination of whether the benefits of a PhD outweigh the drawbacks.
@@ -89,5 +89,7 @@ date-format: long
 ## Final Thoughts
 - The future of doctoral education.
 - The need for reform in PhD programs.
-- **Statistic**: In Germany, where PhDs are shorter and more integrated with industry, graduates find employment faster and in more varied roles.
+- **Statistic**: In Germany, where PhDs are shorter and more integrated with industry, graduates find employment faster and in more varied roles [@Economist2010].
 - Emphasizing the importance of aligning education with market demands.
+
+# References
