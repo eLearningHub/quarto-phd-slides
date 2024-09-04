@@ -12,33 +12,33 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          # Do not render to PDF
           tinytex: false
-          # uncomment below and fill to pin a version
-          # version: 0.9.600
 
-      - name: requirements
+      - name: Install Dependencies
         run: make requirements
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
-      - name: Upload
-        uses: actions/upload-artifact@master
-        with:
-          name: slides
-          path: _output/presentation-01
-
-      - name: Index
+      - name: Prepare Index File
         run: cp _output/presentation-01/presentation-01.htm _output/presentation-01/index.html
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _output/presentation-01
+      - name: Deploy to GitHub Pages
+        run: |
+          # Configure Git
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Initialize a new repository in the output directory
+          cd _output/presentation-01
+          git init
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+
+          # Force push to the `gh-pages` branch
+          git push --force "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" master:gh-pages
